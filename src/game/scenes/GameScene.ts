@@ -12,7 +12,7 @@ export class GameScene extends Phaser.Scene {
     private renderSystem: RenderSystem;
     private player: Entity;
     private gridWidth: number = 20;
-    private gridHeight: number = 17;
+    private gridHeight: number = 20;
     private tileSize: number = 32;
     private gridOffsetX: number = 50; // Space for Y-axis labels
     private gridOffsetY: number = 50; // Space for X-axis labels
